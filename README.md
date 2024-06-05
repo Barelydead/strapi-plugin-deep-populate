@@ -43,6 +43,7 @@ module.exports = ({ env }) => ({
   'strapi-plugin-populate-deep': {
     config: {
       defaultDepth: 3, // Default is 5
+      excludeLocalizations: true // do not include localizations for other languages in response if using i18n plugin 
     }
   },
 });
